@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="enemy">
+      <h2 class="title">相手手札</h2>
+      <div id="enemyImages">
+        <img id="enemyImages1" class="trumpImage" />
+        <img id="enemyImages2" class="trumpImage" />
+        <img id="enemyImages3" class="trumpImage" />
+      </div>
+      <p id="enemyTotal"></p>
+      <p id="enemyResult"></p>
+    </div>
+    <div id="start">
+      <div class="btnBox">
+        <input type="button" value="ゲームスタート" id="startBtn" />
+        <input type="button" value="ゲームスタート" id="resetStartBtn" />
+        <input type="button" value="リセット" id="resetBtn" />
+      </div>
+      <img id="startImg" src="../js/tramp_back-image.png" />
+    </div>
+    <div id="me">
+      <h2 class="title">自分手札</h2>
+      <div id="myImages">
+        <img id="myImages1" class="trumpImage" />
+        <img id="myImages2" class="trumpImage" />
+        <img id="myImages3" class="trumpImage" />
+      </div>
+      <p id="myTotal"></p>
+      <div class="myBtnBox">
+        <input type="button" value="追加" id="addBtn" />
+        <input type="button" value="追加しない" id="notAddBtn" />
+      </div>
+      <p id="myResult"></p>
+    </div>
+  </body>
+  <script src="../js/general_04.js"></script>
+</html>
