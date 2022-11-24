@@ -1,0 +1,84 @@
+#start,
+#enemy,
+#me {
+  background-color: seagreen;
+  margin-bottom: 50px;
+}
+#me {
+  margin-bottom: 0;
+}
+.btnBox {
+  padding: 25px;
+  text-align: center;
+}
+#startBtn,
+#resetBtn {
+  padding: 30px 35px;
+  background-color: darkmagenta;
+  margin-right: 20px;
+  border-radius: 10px;
+  color: white;
+}
+#startBtn:disabled,
+#addBtn:disabled,
+#notAddBtn:disabled,
+#resetStartBtn:disabled {
+  background-color: gray;
+  color: rgba(255, 255, 255, 0.5);
+}
+#startImg {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  width: 200px;
+}
+.title {
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold;
+  padding: 40px;
+}
+.myBtnBox {
+  text-align: center;
+}
+#addBtn,
+#notAddBtn {
+  padding: 20px 45px;
+  border-radius: 10px;
+  background-color: blueviolet;
+}
+#enemyTotal,
+#enemyResult,
+#myTotal,
+#myResult {
+  text-align: center;
+  font-size: 40px;
+  padding: 30px 0;
+}
+#enemyImages,
+#myImages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.trumpImage {
+  display: inline-block;
+  width: 150px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+#myTotal,
+#enemyTotal {
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+}
+#resetStartBtn {
+  display: none;
+  padding: 30px 35px;
+  background-color: darkmagenta;
+  margin-right: 20px;
+  border-radius: 10px;
+  color: white;
+}
