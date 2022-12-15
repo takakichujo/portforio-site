@@ -74,11 +74,3 @@
   text-align: center;
   margin: 0 auto;
 }
-#resetStartBtn {
-  display: none;
-  padding: 30px 35px;
-  background-color: darkmagenta;
-  margin-right: 20px;
-  border-radius: 10px;
-  color: white;
-}
